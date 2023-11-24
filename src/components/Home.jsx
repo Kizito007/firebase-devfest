@@ -7,6 +7,7 @@ const Home = ({ user }) => {
         localStorage.removeItem('email')
         auth.signOut()
         // redirect to homepage
+        window.location.reload();
     }
   return <>
     {
